@@ -64,9 +64,9 @@ class HrEvaluationReport(models.Model):
         ],
     }
 
-    def init(self, cr):
+    def init(self):
         tools.drop_view_if_exists(cr, 'hr_evaluation_report')
-        cr.execute("""
+        self._cr.execute("""
             create or replace view hr_evaluation_report as (
                  select
                      min(l.id) as id,
