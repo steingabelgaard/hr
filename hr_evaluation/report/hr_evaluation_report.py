@@ -65,7 +65,7 @@ class HrEvaluationReport(models.Model):
     }
 
     def init(self):
-        tools.drop_view_if_exists(cr, 'hr_evaluation_report')
+        tools.drop_view_if_exists(self._cr, self._table)
         self._cr.execute("""
             create or replace view hr_evaluation_report as (
                  select
