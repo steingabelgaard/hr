@@ -44,7 +44,7 @@
         <field ref="model_hr_evaluation_interview" name="model_id"/>
         <field name="domain_force">[(1,'=',1)]</field>
         <field eval="False" name="global"/>
-        <field name="groups" eval="[(4, ref('base.group_hr_user'))]"/>
+        <field name="groups" eval="[(4, ref('hr.group_hr_user'))]"/>
     </record>
     
     </data>
