@@ -1,28 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * hr_evaluation
+#	* hr_evaluation
 #
-# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2016-04-04 22:46+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Bosnian (http://www.transifex.com/odoo/odoo-8/language/bs/)\n"
-"Language: bs\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: \n"
 
 #. module: hr_evaluation
 #: code:addons/hr_evaluation/models/hr_evaluation.py:102
 #, python-format
-msgid ""
-"\n"
+msgid "\n"
 "Date: %(date)s\n"
 "\n"
 "Dear %(employee_name)s,\n"
@@ -82,7 +76,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_action
 msgid "Action"
-msgstr "Akcija"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_note_action
@@ -101,21 +95,17 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_6_1
-msgid ""
-"Actions by Executive management show genuine interest in the well-being of "
-"employees"
+msgid "Actions by Executive management show genuine interest in the well-being of employees"
 msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_active
 msgid "Active"
-msgstr "Aktivan"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_13
-msgid ""
-"Adaptability: Ability to adapt oneself to organizational changes while "
-"keeping efficiency"
+msgid "Adaptability: Ability to adapt oneself to organizational changes while keeping efficiency"
 msgstr ""
 
 #. module: hr_evaluation
@@ -333,19 +323,16 @@ msgstr ""
 #: selection:hr.evaluation.report,state:0
 #: selection:hr_evaluation.evaluation,state:0
 msgid "Cancelled"
-msgstr "Otkazano"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_plan_phase_mail_feature
-msgid ""
-"Check this box if you want to send mail to employees coming under this phase"
+msgid "Check this box if you want to send mail to employees coming under this phase"
 msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_plan_phase_wait
-msgid ""
-"Check this box if you want to wait that all preceding phases are finished "
-"before launching this phase."
+msgid "Check this box if you want to wait that all preceding phases are finished before launching this phase."
 msgstr ""
 
 #. module: hr_evaluation
@@ -355,8 +342,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_hr_evaluation_interview_tree
-msgid ""
-"Click to create a new interview request related to a personal evaluation."
+msgid "Click to create a new interview request related to a personal evaluation."
 msgstr ""
 
 #. module: hr_evaluation
@@ -367,12 +353,11 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report_closed
 msgid "Close Date"
-msgstr "Datum zatvaranja"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_9
-msgid ""
-"Communication skills (written & verbally): clearness, concision, exactitude"
+msgid "Communication skills (written & verbally): clearness, concision, exactitude"
 msgstr ""
 
 #. module: hr_evaluation
@@ -380,19 +365,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_company_id
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_search
 msgid "Company"
-msgstr "Kompanija"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_6_3
-msgid ""
-"Compared to similar jobs in other companies where I could work, my total "
-"compensation..."
+msgid "Compared to similar jobs in other companies where I could work, my total compensation..."
 msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_3
-msgid ""
-"Compliance to internal rules and processes (timesheets completion, etc.)"
+msgid "Compliance to internal rules and processes (timesheets completion, etc.)"
 msgstr ""
 
 #. module: hr_evaluation
@@ -403,7 +385,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report_create_date
 msgid "Create Date"
-msgstr "Datum unosa"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_create_uid
@@ -411,7 +393,7 @@ msgstr "Datum unosa"
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_create_uid
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_create_uid
 msgid "Created by"
-msgstr "Kreirao"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_create_date
@@ -419,12 +401,12 @@ msgstr "Kreirao"
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_create_date
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_create_date
 msgid "Created on"
-msgstr "Kreirano"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 msgid "Creation Month"
-msgstr "Mjesec kreiranja"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_14
@@ -433,9 +415,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
-msgid ""
-"Critical or key elements of performance and professional development needs "
-"(if any), should also be noted at this time"
+msgid "Critical or key elements of performance and professional development needs (if any), should also be noted at this time"
 msgstr ""
 
 #. module: hr_evaluation
@@ -446,7 +426,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_1_2
 msgid "Date"
-msgstr "Datum"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_interview_deadline
@@ -462,7 +442,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_interview_deadline
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report_deadline
 msgid "Deadline"
-msgstr "Rok izvršenja"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_tree
@@ -523,18 +503,17 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_form
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Done"
-msgstr "Gotovo"
+msgstr ""
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.interview,state:0
 #: selection:hr.evaluation.report,state:0
 msgid "Draft"
-msgstr "U pripremi"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.open_view_hr_evaluation_tree
-msgid ""
-"Each employee may be assigned an Appraisal Plan. Such a plan\n"
+msgid "Each employee may be assigned an Appraisal Plan. Such a plan\n"
 "                defines the frequency and the way you manage your periodic\n"
 "                personnel evaluation. You will be able to define steps and\n"
 "                attach interviews to each step. Odoo manages all kinds of\n"
@@ -550,7 +529,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_mail_body
 msgid "Email"
-msgstr "E-Mail"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_employee
@@ -559,7 +538,7 @@ msgstr "E-Mail"
 #: model:ir.ui.view,arch_db:hr_evaluation.evaluation_search
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 msgid "Employee"
-msgstr "Zaposleni"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_evaluation
@@ -595,7 +574,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_date_close
 msgid "Ending Date"
-msgstr "Završni datum"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_1
@@ -632,7 +611,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 msgid "Extended Filters..."
-msgstr "Napredni filteri..."
+msgstr ""
 
 #. module: hr_evaluation
 #: selection:hr_evaluation.plan.phase,action:0
@@ -658,27 +637,23 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "General"
-msgstr "Opšte"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_search
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_search
 msgid "Group By"
-msgstr "Grupiši po"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.evaluation_search
 msgid "Group by..."
-msgstr "Grupiši po..."
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.opinion_1
-msgid ""
-"His direct reports will be invited through Odoo to express a feedback on "
-"their supervisor's leadership and to give their opinion about their own "
-"engagement and effectiveness, the continuous improvement and openness in "
-"action in thecompany..."
+msgid "His direct reports will be invited through Odoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany..."
 msgstr ""
 
 #. module: hr_evaluation
@@ -688,9 +663,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_5
-msgid ""
-"I am willing to put in a great deal of effort beyond what is expected to "
-"help my workgroup succeed"
+msgid "I am willing to put in a great deal of effort beyond what is expected to help my workgroup succeed"
 msgstr ""
 
 #. module: hr_evaluation
@@ -700,9 +673,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_2_2
-msgid ""
-"I consistently acquire new knowledge, skills or understanding through "
-"contact with my supervisor. He helps me growing my compete"
+msgid "I consistently acquire new knowledge, skills or understanding through contact with my supervisor. He helps me growing my compete"
 msgstr ""
 
 #. module: hr_evaluation
@@ -712,9 +683,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_6_2
-msgid ""
-"I have the same opportunity to succeed as others with similar experiences, "
-"performance and educational background"
+msgid "I have the same opportunity to succeed as others with similar experiences, performance and educational background"
 msgstr ""
 
 #. module: hr_evaluation
@@ -724,9 +693,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_3_3
-msgid ""
-"I mostly work on value-added tasks for the company, the products or the "
-"services"
+msgid "I mostly work on value-added tasks for the company, the products or the services"
 msgstr ""
 
 #. module: hr_evaluation
@@ -736,9 +703,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_3
-msgid ""
-"I would prefer to remain with this company even if a comparable job were "
-"available in another company"
+msgid "I would prefer to remain with this company even if a comparable job were available in another company"
 msgstr ""
 
 #. module: hr_evaluation
@@ -753,13 +718,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_id
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_4
-msgid ""
-"Identify professional, performance, or project objectives you recommend for "
-"employee’s continued career development\n"
+msgid "Identify professional, performance, or project objectives you recommend for employee’s continued career development\n"
 "over the coming year."
 msgstr ""
 
@@ -792,15 +755,13 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_evaluation_note_action
-msgid ""
-"If the evaluation does not meet the expectations, you can propose an action "
-"plan"
+msgid "If the evaluation does not meet the expectations, you can propose an action plan"
 msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 msgid "In Progress"
-msgstr "U toku"
+msgstr ""
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.interview,state:0
@@ -821,7 +782,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_form
 msgid "Internal Notes"
-msgstr "Interne zabilješke"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_form
@@ -842,8 +803,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_hr_evaluation_interview_tree
-msgid ""
-"Interview requests are usually generated automatically by\n"
+msgid "Interview requests are usually generated automatically by\n"
 "                Odoo according to an employee's appraisal plan. Each user\n"
 "                receives automatic emails and requests to evaluate their\n"
 "                colleagues periodically."
@@ -864,23 +824,16 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
-msgid ""
-"It is the joint responsibility of the employee and the supervisor "
-"(appraiser) to establish a feasible work plan for the\n"
-"coming year, including major employee responsibilities and corresponding "
-"benchmarks against which results will be\n"
+msgid "It is the joint responsibility of the employee and the supervisor (appraiser) to establish a feasible work plan for the\n"
+"coming year, including major employee responsibilities and corresponding benchmarks against which results will be\n"
 "evaluated."
 msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
-msgid ""
-"It is the primary responsibility of the supervisor to gather the necessary "
-"input from the appropriate sources of feedback\n"
-"(internal and/or external customers, peers). In case of collaboration with "
-"Odoo SA Belgium, the supervisor must\n"
-"receive completed evaluation form from the employee's Belgian project "
-"manager."
+msgid "It is the primary responsibility of the supervisor to gather the necessary input from the appropriate sources of feedback\n"
+"(internal and/or external customers, peers). In case of collaboration with Odoo SA Belgium, the supervisor must\n"
+"receive completed evaluation form from the employee's Belgian project manager."
 msgstr ""
 
 #. module: hr_evaluation
@@ -889,9 +842,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan___last_update
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase___last_update
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report___last_update
-#, fuzzy
 msgid "Last Modified on"
-msgstr "Zadnje ažurirano"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_write_uid
@@ -899,7 +851,7 @@ msgstr "Zadnje ažurirano"
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_write_uid
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_write_date
@@ -907,7 +859,7 @@ msgstr "Zadnji ažurirao"
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_write_date
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_2
@@ -916,9 +868,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_2_3
-msgid ""
-"Leadership: create a challenging and motivating work environment aligned "
-"with the company's strategy"
+msgid "Leadership: create a challenging and motivating work environment aligned with the company's strategy"
 msgstr ""
 
 #. module: hr_evaluation
@@ -929,13 +879,11 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Legend"
-msgstr "Legenda"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_2_3
-msgid ""
-"Listens and takes into account all ideas and do his best to put in place the "
-"best of these"
+msgid "Listens and takes into account all ideas and do his best to put in place the best of these"
 msgstr ""
 
 #. module: hr_evaluation
@@ -963,18 +911,16 @@ msgstr ""
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_6
 msgid "Miscellaneous"
-msgstr "Dodatna podešavanja"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 msgid "Month"
-msgstr "Mjesec"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_5_2
-msgid ""
-"My best achievements have been communicated to the community, internally or "
-"to customers"
+msgid "My best achievements have been communicated to the community, internally or to customers"
 msgstr ""
 
 #. module: hr_evaluation
@@ -984,15 +930,13 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_4_1
-msgid ""
-"My work contributes towards the continuous improvement of the company, our "
-"services or products"
+msgid "My work contributes towards the continuous improvement of the company, our services or products"
 msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_1_1
 msgid "Name"
-msgstr "Ime"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_1_1
@@ -1002,7 +946,7 @@ msgstr ""
 #. module: hr_evaluation
 #: selection:hr_evaluation.evaluation,state:0
 msgid "New"
-msgstr "Novi"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_employee_evaluation_date
@@ -1021,9 +965,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_4_4
-msgid ""
-"Our workgroup identifies and reduces waste of time in our activities and "
-"processes"
+msgid "Our workgroup identifies and reduces waste of time in our activities and processes"
 msgstr ""
 
 #. module: hr_evaluation
@@ -1038,20 +980,18 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_4_3
-msgid ""
-"Overall, I believe the quality of products and/or services my workgroup "
-"delivers is improving"
+msgid "Overall, I believe the quality of products and/or services my workgroup delivers is improving"
 msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report_overpass_delay
 msgid "Overpassed Deadline"
-msgstr "Prekoračen rok"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.evaluation_search
 msgid "Pending"
-msgstr "Na čekanju"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.ui.menu,name:hr_evaluation.menu_eval_hr_config
@@ -1079,7 +1019,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_evaluation.evaluation_search
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 msgid "Plan"
-msgstr "Plan"
+msgstr ""
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.report,state:0
@@ -1137,7 +1077,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_form
 msgid "Reset to Draft"
-msgstr "Vrati u pripremu"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_2_2
@@ -1146,9 +1086,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_2_1
-msgid ""
-"Results of the bottom-up survey and mitigation actions to face technical, "
-"organizational, structural and/or relational issues"
+msgid "Results of the bottom-up survey and mitigation actions to face technical, organizational, structural and/or relational issues"
 msgstr ""
 
 #. module: hr_evaluation
@@ -1224,7 +1162,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr ""
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.report,rating:0
@@ -1251,8 +1189,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_3
 #: model:survey.page,description:hr_evaluation.opinion_1
-msgid ""
-"Significantly exceeds standards and expectations required of the position"
+msgid "Significantly exceeds standards and expectations required of the position"
 msgstr ""
 
 #. module: hr_evaluation
@@ -1263,7 +1200,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_interview_state
 msgid "State"
-msgstr "Stanje"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_state
@@ -1272,13 +1209,13 @@ msgstr "Stanje"
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_search
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_email_subject
 #: model:survey.question,question:hr_evaluation.appraisal_3_1
 msgid "Subject"
-msgstr "Tema"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_3_2
@@ -1292,15 +1229,12 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_4
-msgid ""
-"Taking everything into account, how satisfied are you with your current job?"
+msgid "Taking everything into account, how satisfied are you with your current job?"
 msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_4
-msgid ""
-"Team spirit: ability to work efficiently with peers, manage the conflicts "
-"with diplomacy"
+msgid "Team spirit: ability to work efficiently with peers, manage the conflicts with diplomacy"
 msgstr ""
 
 #. module: hr_evaluation
@@ -1337,69 +1271,50 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.opinion_1
-msgid ""
-"The appraiser should rate the employee's major work accomplishments and "
-"performance according to the metric provided below"
+msgid "The appraiser should rate the employee's major work accomplishments and performance according to the metric provided below"
 msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_3
-msgid ""
-"The appraiser should rate the employee’s major work accomplishments and "
-"performance according to the metric provided\n"
+msgid "The appraiser should rate the employee’s major work accomplishments and performance according to the metric provided\n"
 "below:"
 msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_employee_evaluation_date
-msgid ""
-"The date of the next appraisal is computed by the appraisal plan's dates "
-"(first appraisal + periodicity)."
+msgid "The date of the next appraisal is computed by the appraisal plan's dates (first appraisal + periodicity)."
 msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
-msgid ""
-"The employee may choose to offer comments or explanation regarding the "
-"completed review."
+msgid "The employee may choose to offer comments or explanation regarding the completed review."
 msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
-msgid ""
-"The employee will be responsible for completing a draft of the Appraisal "
-"Form as a tool for self-appraisal and a starting\n"
-"point for the supervisor’s evaluation. The employee can add examples of "
-"achievements for each criterion.\n"
+msgid "The employee will be responsible for completing a draft of the Appraisal Form as a tool for self-appraisal and a starting\n"
+"point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.\n"
 "Once the form had been filled, the employee send it to his supervisor."
 msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.opinion_1
-msgid ""
-"The employees will send back their anonymous answers to Odoo. The data will "
-"be handled by the HR manager and a brief summary of the data will be sent to "
-"the concerned supervisor, to his team and to the supervisor's supervisor."
+msgid "The employees will send back their anonymous answers to Odoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor."
 msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_plan_month_next
-msgid ""
-"The number of month that depicts the delay between each evaluation of this "
-"plan (after the first one)."
+msgid "The number of month that depicts the delay between each evaluation of this plan (after the first one)."
 msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
-msgid ""
-"The supervisor send the form to the HR department in India and in Belgium"
+msgid "The supervisor send the form to the HR department in India and in Belgium"
 msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
-msgid ""
-"The supervisor synthesizes and integrates all input into the completed "
-"appraisal. He motivates his evaluation in the ad\n"
+msgid "The supervisor synthesizes and integrates all input into the completed appraisal. He motivates his evaluation in the ad\n"
 "hoc fields."
 msgstr ""
 
@@ -1410,9 +1325,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_plan_month_first
-msgid ""
-"This number of months will be used to schedule the first evaluation date of "
-"the employee when selecting an evaluation plan. "
+msgid "This number of months will be used to schedule the first evaluation date of the employee when selecting an evaluation plan. "
 msgstr ""
 
 #. module: hr_evaluation
@@ -1450,13 +1363,11 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_search
 msgid "To Do"
-msgstr "Za Uraditi"
+msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
-msgid ""
-"To assist employees in their professional growth, through the identification "
-"of strengths and opportunities for\n"
+msgid "To assist employees in their professional growth, through the identification of strengths and opportunities for\n"
 "development"
 msgstr ""
 
@@ -1472,9 +1383,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_5_1
-msgid ""
-"Use the following space to make any comments regarding the above performance "
-"evaluation."
+msgid "Use the following space to make any comments regarding the above performance evaluation."
 msgstr ""
 
 #. module: hr_evaluation
@@ -1494,9 +1403,7 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_4_2
-msgid ""
-"What I did several months ago is still of use to the company, the services "
-"or the products today"
+msgid "What I did several months ago is still of use to the company, the services or the products today"
 msgstr ""
 
 #. module: hr_evaluation
@@ -1506,10 +1413,8 @@ msgstr ""
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_evaluation_plans_installer
-msgid ""
-"You can define appraisal plans (ex: first interview after 6\n"
-"                months, then every year). Then, each employee can be linked "
-"to\n"
+msgid "You can define appraisal plans (ex: first interview after 6\n"
+"                months, then every year). Then, each employee can be linked to\n"
 "                an appraisal plan so that Odoo can automatically generate\n"
 "                interview requests to managers and/or subordinates."
 msgstr ""
@@ -1517,9 +1422,7 @@ msgstr ""
 #. module: hr_evaluation
 #: code:addons/hr_evaluation/models/hr_evaluation.py:299
 #, python-format
-msgid ""
-"You cannot change state, because some appraisal forms have not been "
-"completed."
+msgid "You cannot change state, because some appraisal forms have not been completed."
 msgstr ""
 
 #. module: hr_evaluation
@@ -1528,45 +1431,3 @@ msgstr ""
 msgid "You cannot start evaluation without Appraisal."
 msgstr ""
 
-#~ msgid "Date of the last message posted on the record."
-#~ msgstr "Datum posljednje poruke ostavljene na unos."
-
-#~ msgid "Followers"
-#~ msgstr "Pratioci"
-
-#~ msgid ""
-#~ "Holds the Chatter summary (number of messages, ...). This summary is "
-#~ "directly in html format in order to be inserted in kanban views."
-#~ msgstr ""
-#~ "Sadrži sažetak konverzacije (broj poruka,..). Ovaj sažetak je u html "
-#~ "formatu da bi mogao biti ubačen u kanban pogled."
-
-#~ msgid "If checked new messages require your attention."
-#~ msgstr "Ako je označeno, nove poruke će zahtjevati vašu pažnju."
-
-#~ msgid "Is a Follower"
-#~ msgstr "Je pratilac"
-
-#~ msgid "Last Message Date"
-#~ msgstr "Datum zadnje poruke"
-
-#~ msgid "Messages"
-#~ msgstr "Poruke"
-
-#~ msgid "Messages and communication history"
-#~ msgstr "Poruke i istorija komunikacije"
-
-#~ msgid "Summary"
-#~ msgstr "Sažetak"
-
-#~ msgid "Survey"
-#~ msgstr "Upitnik"
-
-#~ msgid "Unread Messages"
-#~ msgstr "Nepročitane poruke"
-
-#~ msgid "Warning!"
-#~ msgstr "Upozorenje!"
-
-#~ msgid "Website Messages"
-#~ msgstr "Poruke na website-u"
