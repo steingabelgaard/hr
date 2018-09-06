@@ -220,7 +220,7 @@ class Evaluation(models.Model):
         res = []
         for record in self:
             name = record.plan_id.name
-            employee = record.employee_id.name_related
+            employee = record.employee_id.name
             res.append((record.id, name + ' / ' + employee))
         return res
 
