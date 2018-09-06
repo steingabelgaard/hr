@@ -200,7 +200,7 @@
 								attrs="{'readonly': [('state', '=', 'done')]}" />
 						</group>
 						<group string="Internal Notes" attrs="{'invisible':[('state','=','draft')]}">
-							<field nolabel="1" name="note_action" groups="base.group_hr_manager"
+							<field nolabel="1" name="note_action" groups="hr.group_hr_manager"
 								placeholder="Appraisal Summary..." />
 						</group>
 						<group string="Public Notes" attrs="{'invisible':[('state','=','draft')]}">
@@ -303,7 +303,7 @@
                                 <field name="user_to_review_id" readonly="1"/>
                             </group>
                             <group>
-                                <field name="user_id" string="Interviewer" context="{'default_groups_ref': ['base.group_user', 'base.group_partner_manager', 'base.group_hr_manager']}"/>
+                                <field name="user_id" string="Interviewer" context="{'default_groups_ref': ['base.group_user', 'base.group_partner_manager', 'hr.group_hr_manager']}"/>
                                 <field name="deadline"/>
                             </group>
                             <group>
