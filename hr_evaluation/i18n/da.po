@@ -10,14 +10,16 @@ msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2016-04-11 12:48+0000\n"
+"PO-Revision-Date: 2018-09-08 19:15+0000\n"
 "Last-Translator: Hans Henrik Gabelgaard <hhg@gabelgaard.org>\n"
-"Language-Team: Danish (http://www.transifex.com/odoo/odoo-8/language/da/)\n"
+"Language-Team: Danish <https://example.com/projects/hr-11-0/"
+"hr-11-0-hr_evaluation/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #. module: hr_evaluation
 #: code:addons/hr_evaluation/models/hr_evaluation.py:102
@@ -508,7 +510,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_display_name
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Navn"
 
 #. module: hr_evaluation
 #: selection:hr_evaluation.evaluation,rating:0
@@ -890,9 +892,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan___last_update
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase___last_update
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report___last_update
-#, fuzzy
 msgid "Last Modified on"
-msgstr "Sidst opdateret den"
+msgstr "Senest opdateret den"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_write_uid

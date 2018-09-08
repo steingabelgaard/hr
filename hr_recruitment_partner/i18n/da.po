@@ -6,98 +6,103 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-09-08 19:15+0000\n"
+"Last-Translator: Hans Henrik Gabelgaard <hhg@gabelgaard.org>\n"
+"Language-Team: Danish <https://example.com/projects/hr-11-0/"
+"hr-11-0-hr_recruitment_partner/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_property_account_payable_id
 msgid "Account Payable"
-msgstr ""
+msgstr "Kreditor"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_property_account_receivable_id
 msgid "Account Receivable"
-msgstr ""
+msgstr "Tigodehavende konto"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_type
 msgid "Address Type"
-msgstr ""
+msgstr "Adressetype"
 
 #. module: hr_recruitment_partner
 #: model:ir.model,name:hr_recruitment_partner.model_hr_applicant
 msgid "Applicant"
-msgstr ""
+msgstr "Ansøger"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_bank_account_count
 msgid "Bank"
-msgstr ""
+msgstr "Bank"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_bank_ids
 msgid "Banks"
-msgstr ""
+msgstr "Banker"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_barcode
 msgid "Barcode"
-msgstr ""
+msgstr "Stregkode"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_message_bounce
 msgid "Bounce"
-msgstr ""
+msgstr "Spring"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_channel_ids
 msgid "Channels"
-msgstr ""
+msgstr "Kanaler"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_is_company
 msgid "Check if the contact is a company, otherwise it is a person"
-msgstr ""
+msgstr "Kontroller, om kontakten er en virksomhed, ellers er det en person,"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_customer
 msgid "Check this box if this contact is a customer."
-msgstr ""
+msgstr "Markér denne boks hvis kontakten er en kunde."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_supplier
 msgid "Check this box if this contact is a vendor. If it's not checked, purchase people will not see it when encoding a purchase order."
 msgstr ""
+"Afkryds dette felt hvis kontakten er en leverandør. Er den ikke markeret vil "
+"indkøbsfolkene ikke kunne se den ved behandling af indkøbsordre."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_employee
 msgid "Check this box if this contact is an Employee."
-msgstr ""
+msgstr "Afkryds denne boks hvis kontakten er en medarbejder."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_city
 msgid "City"
-msgstr ""
+msgstr "By"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_commercial_partner_id
 msgid "Commercial Entity"
-msgstr ""
+msgstr "Kommerciel enhed"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_ref_company_ids
 msgid "Companies that refers to partner"
-msgstr ""
+msgstr "Firmaer med relation til partneren"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_company_name
 msgid "Company Name"
-msgstr ""
+msgstr "Virksomhed"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_commercial_company_name
@@ -107,23 +112,23 @@ msgstr ""
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_company_type
 msgid "Company Type"
-msgstr ""
+msgstr "Virksomhedstype"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_contact_address
 msgid "Complete Address"
-msgstr ""
+msgstr "Fulde adresse"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_child_ids
 msgid "Contacts"
-msgstr ""
+msgstr "Kontakter"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_contract_ids
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_contracts_count
 msgid "Contracts"
-msgstr ""
+msgstr "Kontrakter"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_payment_token_count
@@ -133,33 +138,33 @@ msgstr ""
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_message_bounce
 msgid "Counter of the number of bounced emails for this contact"
-msgstr ""
+msgstr "Antal bounced emails for denne kontakt"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_commercial_partner_country_id
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_country_id
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_credit_limit
 msgid "Credit Limit"
-msgstr ""
+msgstr "Kreditgrænse"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Valuta"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_property_payment_term_id
 msgid "Customer Payment Terms"
-msgstr ""
+msgstr "Kunde betalingsbetingelser"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_date
 msgid "Date"
-msgstr ""
+msgstr "Dato"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_trust
@@ -174,37 +179,37 @@ msgstr ""
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_email
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_employee
 msgid "Employee"
-msgstr ""
+msgstr "Medarbejder"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_firstname
 msgid "First name"
-msgstr ""
+msgstr "Fornavn"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_property_account_position_id
 msgid "Fiscal Position"
-msgstr ""
+msgstr "Told position"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_email_formatted
 msgid "Format email address \"Name <email@domain>\""
-msgstr ""
+msgstr "Format for  email adresse \"Navn <email@domain>\""
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_email_formatted
 msgid "Formatted Email"
-msgstr ""
+msgstr "Formatteret email"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_has_unreconciled_entries
 msgid "Has Unreconciled Entries"
-msgstr ""
+msgstr "Har uudlignede posteringer"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_im_status
@@ -215,76 +220,81 @@ msgstr ""
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_opt_out
 msgid "If opt-out is checked, this contact has refused to receive emails for mass mailing and marketing campaign. Filter 'Available for Mass Mailing' allows users to filter the partners when performing mass mailing."
 msgstr ""
+"If opt-out is checked, this contact has refused to receive emails for mass "
+"mailing and marketing campaign. Filter 'Available for Mass Mailing' allows "
+"users to filter the partners when performing mass mailing."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_lang
 msgid "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
 msgstr ""
+"If the selected language is loaded in the system, all documents related to "
+"this contact will be printed in this language. If not, it will be English."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_image
 msgid "Image"
-msgstr ""
+msgstr "Billede"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_industry_id
 msgid "Industry"
-msgstr ""
+msgstr "Industri"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_ref
 msgid "Internal Reference"
-msgstr ""
+msgstr "Intern reference"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_invoice_warn
 msgid "Invoice"
-msgstr ""
+msgstr "Faktura"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_invoice_ids
 msgid "Invoices"
-msgstr ""
+msgstr "Fakturaer"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_is_company
 msgid "Is a Company"
-msgstr ""
+msgstr "Er en virksomhed"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_customer
 msgid "Is a Customer"
-msgstr ""
+msgstr "Kunde"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_supplier
 msgid "Is a Vendor"
-msgstr ""
+msgstr "Er en leverandør"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_function
 msgid "Job Position"
-msgstr ""
+msgstr "Stilling"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_journal_item_count
 msgid "Journal Items"
-msgstr ""
+msgstr "Journalposter"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_lang
 msgid "Language"
-msgstr ""
+msgstr "Sprog"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_lastname
 msgid "Last name"
-msgstr ""
+msgstr "Efternavn"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_calendar_last_notif_ack
 msgid "Last notification marked as read from base Calendar"
-msgstr ""
+msgstr "Sidste meddelelse markeret som læst fra basen Kalender"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_last_time_entries_checked
@@ -294,67 +304,69 @@ msgstr ""
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_last_time_entries_checked
 msgid "Latest Invoices & Payments Matching Date"
-msgstr ""
+msgstr "Seneste dato for faktura og betalings udligning"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_image_medium
 msgid "Medium-sized image"
-msgstr ""
+msgstr "Mellem størrelse billede"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_image_medium
 msgid "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
 msgstr ""
+"Mellem-størrelse billede af denne kontakt. Skaleres automatisk til 128x128 "
+"pixel."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_invoice_warn_msg
 msgid "Message for Invoice"
-msgstr ""
+msgstr "Fakturabesked"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_mobile
 msgid "Mobile"
-msgstr ""
+msgstr "Mobil"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_comment
 msgid "Notes"
-msgstr ""
+msgstr "Noter"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_opt_out
 msgid "Opt-Out"
-msgstr ""
+msgstr "mails nej-tak"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_parent_name
 msgid "Parent name"
-msgstr ""
+msgstr "Forældre navn"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_debit_limit
 msgid "Payable Limit"
-msgstr ""
+msgstr "Betalings max."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_payment_token_ids
 msgid "Payment Tokens"
-msgstr ""
+msgstr "Betalingstoken"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_phone
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_parent_id
 msgid "Related Company"
-msgstr ""
+msgstr "Relateret virksomhed"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_property_product_pricelist
 msgid "Sale Pricelist"
-msgstr ""
+msgstr "Salgs prisliste"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_invoice_warn
@@ -369,72 +381,77 @@ msgstr ""
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_partner_share
 msgid "Share Partner"
-msgstr ""
+msgstr "Del partner"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_signup_expiration
 msgid "Signup Expiration"
-msgstr ""
+msgstr "Signup Expiration"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_signup_token
 msgid "Signup Token"
-msgstr ""
+msgstr "Signup Token"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_signup_type
 msgid "Signup Token Type"
-msgstr ""
+msgstr "Signup Token Type"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_signup_valid
 msgid "Signup Token is Valid"
-msgstr ""
+msgstr "Signup Token is Valid"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_signup_url
 msgid "Signup URL"
-msgstr ""
+msgstr "Signup URL"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_image_small
 msgid "Small-sized image"
-msgstr ""
+msgstr "Lille billede"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_image_small
 msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
 msgstr ""
+"Small-sized image of this contact. It is automatically resized as a 64x64px "
+"image, with aspect ratio preserved. Use this field anywhere a small image is "
+"required."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_state_id
 msgid "State"
-msgstr ""
+msgstr "Status"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_street
 msgid "Street"
-msgstr ""
+msgstr "Vejnavn"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_street2
 msgid "Street2"
-msgstr ""
+msgstr "Sted"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_vat
 msgid "TIN"
-msgstr ""
+msgstr "CVR"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5439
 msgid "Tags"
-msgstr ""
+msgstr "Kategorier"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_vat
 msgid "Tax Identification Number. Fill it if the company is subjected to taxes. Used by the some of the legal statements."
 msgstr ""
+"Tax Identification Number. Check the box if this contact is subjected to "
+"taxes. Used by the some of the legal statements."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_account_position_id
@@ -450,6 +467,10 @@ msgstr ""
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_tz
 msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
 msgstr ""
+"The partner's timezone, used to output proper date and time values inside "
+"printed reports. It is important to set a value for this field. You should "
+"use the same timezone that is otherwise used to pick and render date and "
+"time values: your computer's timezone."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_account_payable_id
@@ -465,71 +486,81 @@ msgstr ""
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_image
 msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
 msgstr ""
+"This field holds the image used as avatar for this contact, limited to "
+"1024x1024px"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_supplier_payment_term_id
 msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
 msgstr ""
+"Betalingsbetingelsen vil blive brugt i stedet for standardbetingelen på "
+"indkøbsordrer og leverandørfakturaer."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_payment_term_id
 msgid "This payment term will be used instead of the default one for sales orders and customer invoices"
 msgstr ""
+"Denne betalingsbetingelse vil blive anvendt i stedet for den der er standard "
+"på salgsordrer og fakturaer"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_product_pricelist
 msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
 msgstr ""
+"Denne prisliste anvendes i stedet for standardprislisten ved salg til den "
+"aktuelle kunde"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_tz
 msgid "Timezone"
-msgstr ""
+msgstr "Tidszone"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_tz_offset
 msgid "Timezone offset"
-msgstr ""
+msgstr "Timezone offset"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_title
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_total_invoiced
 msgid "Total Invoiced"
-msgstr ""
+msgstr "Total faktureret"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_debit
 msgid "Total Payable"
-msgstr ""
+msgstr "Total til betaling"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_credit
 msgid "Total Receivable"
-msgstr ""
+msgstr "Totalt udestående"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_credit
 msgid "Total amount this customer owes you."
-msgstr ""
+msgstr "Totalbeløb denne kunde skylder dig."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_debit
 msgid "Total amount you have to pay to this vendor."
-msgstr ""
+msgstr "Totalbeløb der skal betales til denne leverandør."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_type
 msgid "Used to select automatically the right address according to the context in sales and purchases documents."
 msgstr ""
+"Used to select automatically the right address according to the context in "
+"sales and purchases documents."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_user_ids
 msgid "Users"
-msgstr ""
+msgstr "Brugere"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_currency_id
@@ -539,19 +570,19 @@ msgstr ""
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_property_supplier_payment_term_id
 msgid "Vendor Payment Terms"
-msgstr ""
+msgstr "Leverandør betalingsbetingelser"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_website
 msgid "Website"
-msgstr ""
+msgstr "Hjemmeside"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_website
 msgid "Website of Partner or Company"
-msgstr ""
+msgstr "Website of Partner or Company"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_zip
 msgid "Zip"
-msgstr ""
+msgstr "Postnr"
