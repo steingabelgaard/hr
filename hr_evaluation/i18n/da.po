@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2018-09-08 19:15+0000\n"
+"PO-Revision-Date: 2018-09-24 08:15+0000\n"
 "Last-Translator: Hans Henrik Gabelgaard <hhg@gabelgaard.org>\n"
 "Language-Team: Danish <https://example.com/projects/hr-11-0/"
 "hr-11-0-hr_evaluation/da/>\n"
@@ -50,7 +50,7 @@ msgstr "# Af anmodninger"
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "(date)s: Current Date"
-msgstr ""
+msgstr "(date)s: Dags dato"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
@@ -60,27 +60,28 @@ msgstr "(employee_name)s: Partner name"
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "(eval_name)s:Appraisal Name"
-msgstr ""
+msgstr "(eval_name)s:Evalueringsnavn"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "(user_signature)s: User name"
-msgstr ""
+msgstr "(user_signature)s: Bruger navn"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_1
 msgid "Ability to cope with multidisciplinarity of team"
-msgstr ""
+msgstr "Evne til at klare teamets tværfaglighed"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_6
 msgid "Ability to follow and complete work as instructed"
-msgstr ""
+msgstr "Evne til at følge og afslutte arbejdet som anvist"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_2_5
 msgid "Ability to manage planning resources, risks, budgets and deadlines"
 msgstr ""
+"Evne til at styre planlægningsressourcer, risici, budgetter og deadlines"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_action
@@ -90,17 +91,17 @@ msgstr "Handling"
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_note_action
 msgid "Action Plan"
-msgstr ""
+msgstr "Handlingsplan"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_form
 msgid "Action Plan..."
-msgstr ""
+msgstr "Handlingsplan..."
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Action to Perform"
-msgstr ""
+msgstr "Handling til udførsel"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_6_1
@@ -120,22 +121,23 @@ msgid ""
 "Adaptability: Ability to adapt oneself to organizational changes while "
 "keeping efficiency"
 msgstr ""
+"Handlinger af direktionen viser reel interesse for medarbejderes trivsel"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_2_3
 msgid "Additional Comments"
-msgstr ""
+msgstr "Øvrige kommentarer"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_7
 msgid "Additional comments"
-msgstr ""
+msgstr "Øvrige kommentarer"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_send_answer_employee
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_send_answer_manager
 msgid "All Answers"
-msgstr ""
+msgstr "Alle svar"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_11
@@ -146,13 +148,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_send_anonymous_employee
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_send_anonymous_manager
 msgid "Anonymous Summary"
-msgstr ""
+msgstr "Anonymt resume"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_form
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Answer Survey"
-msgstr ""
+msgstr "Svar undersøgelse"
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,name:hr_evaluation.open_view_hr_evaluation_tree
@@ -161,7 +163,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_form
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_tree
 msgid "Appraisal"
-msgstr ""
+msgstr "Evaluering"
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,name:hr_evaluation.action_evaluation_report_all
@@ -169,45 +171,45 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_graph
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 msgid "Appraisal Analysis"
-msgstr ""
+msgstr "Bedømmelsesanalyse"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_date
 msgid "Appraisal Deadline"
-msgstr ""
+msgstr "Deadline for evaluering"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_interview_survey_id
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_survey_id
 msgid "Appraisal Form"
-msgstr ""
+msgstr "Evaluerings skema"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_survey_request_ids
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_form
 msgid "Appraisal Forms"
-msgstr ""
+msgstr "Evaluerings skemaer"
 
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_interview
 msgid "Appraisal Interview"
-msgstr ""
+msgstr "Evaluerings interview"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_employee_appraisal_count
 msgid "Appraisal Interviews"
-msgstr ""
+msgstr "Evaluerings interviews"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_interview_phase_id
 msgid "Appraisal Phase"
-msgstr ""
+msgstr "Evalueringsfase"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_ids
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_form
 msgid "Appraisal Phases"
-msgstr ""
+msgstr "Evalueringsfaser"
 
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_plan
@@ -219,102 +221,102 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_search
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_tree
 msgid "Appraisal Plan"
-msgstr ""
+msgstr "Evaluerings plan"
 
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_plan_phase
 msgid "Appraisal Plan Phase"
-msgstr ""
+msgstr "Evaluerings plan fase"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_tree
 msgid "Appraisal Plan Phases"
-msgstr ""
+msgstr "Evaluerings plan faser"
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,name:hr_evaluation.open_view_hr_evaluation_plan_tree
 #: model:ir.ui.menu,name:hr_evaluation.menu_open_view_hr_evaluation_plan_tree
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_search
 msgid "Appraisal Plans"
-msgstr ""
+msgstr "Evaluerings planer"
 
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.opinion_1
 msgid "Appraisal Process"
-msgstr ""
+msgstr "Evaluerings process"
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,name:hr_evaluation.evaluation_reminders
 msgid "Appraisal Reminders"
-msgstr ""
+msgstr "Evaluerings påmindelse"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_note_summary
 msgid "Appraisal Summary"
-msgstr ""
+msgstr "Evaluerings resumé"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_form
 msgid "Appraisal Summary..."
-msgstr ""
+msgstr "Evaluerings resumé..."
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_1_3
 msgid "Appraisal for Period"
-msgstr ""
+msgstr "Evaluering for periode"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.evaluation_search
 msgid "Appraisal that are in Plan In Progress state"
-msgstr ""
+msgstr "Evaluering der er i udførsel"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.evaluation_search
 msgid "Appraisal that are in waiting appreciation state"
-msgstr ""
+msgstr "Evaluering der afventer bedømmelse"
 
 #. module: hr_evaluation
 #: model:ir.ui.menu,name:hr_evaluation.menu_open_view_hr_evaluation_tree
 #: model:ir.ui.view,arch_db:hr_evaluation.hr_hr_employee_view_form
 msgid "Appraisals"
-msgstr ""
+msgstr "Evalueringer"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.evaluation_search
 msgid "Appraisals Month"
-msgstr ""
+msgstr "Evaluerings måned"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.evaluation_search
 msgid "Appraisals by Month"
-msgstr ""
+msgstr "Evalueringer pr måned"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_1_5
 msgid "Appraiser"
-msgstr ""
+msgstr "Bedømmer"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_rating
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 msgid "Appreciation"
-msgstr ""
+msgstr "Påskønnelse"
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
 msgid "At the conclusion of the appraisal time period"
-msgstr ""
+msgstr "Ved afslutningen af evalueringsperioden"
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
 msgid "At the outset of the appraisal time period"
-msgstr ""
+msgstr "Ved begyndelsen af evalueringsperioden"
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.opinion_1
 msgid "At the supervisor's appraisal date"
-msgstr ""
+msgstr "På vejlederens bedømmelsesdato"
 
 #. module: hr_evaluation
 #: selection:hr_evaluation.plan.phase,action:0
@@ -324,12 +326,12 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_form
 msgid "Cancel Appraisal"
-msgstr ""
+msgstr "Annuller evaluering"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_form
 msgid "Cancel Survey"
-msgstr ""
+msgstr "Annuller undersøgelse"
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.interview,state:0
@@ -343,6 +345,8 @@ msgstr "Annulleret"
 msgid ""
 "Check this box if you want to send mail to employees coming under this phase"
 msgstr ""
+"Marker dette felt, hvis du vil sende mail til medarbejdere, der kommer under "
+"denne fase"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_plan_phase_wait
@@ -350,22 +354,26 @@ msgid ""
 "Check this box if you want to wait that all preceding phases are finished "
 "before launching this phase."
 msgstr ""
+"Marker denne boks, hvis du vil vente på, at alle forudgående faser er "
+"færdige, inden du starter denne fase."
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.open_view_hr_evaluation_tree
 msgid "Click to create a new appraisal."
-msgstr ""
+msgstr "Klik for at oprette en ny evaluering."
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_hr_evaluation_interview_tree
 msgid ""
 "Click to create a new interview request related to a personal evaluation."
 msgstr ""
+"Klik for at oprette en ny interviewforespørgsel vedrørende en personlig "
+"evaluering."
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_evaluation_plans_installer
 msgid "Click to define a new appraisal plan."
-msgstr ""
+msgstr "Klik for at definere en ny evalueringsplan"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report_closed
@@ -377,6 +385,8 @@ msgstr "Lukke dato"
 msgid ""
 "Communication skills (written & verbally): clearness, concision, exactitude"
 msgstr ""
+"Kommunikationsfærdigheder (skriftlig og mundtlig): klarhed, koncision, "
+"eksistens"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_company_id
@@ -397,11 +407,13 @@ msgstr ""
 msgid ""
 "Compliance to internal rules and processes (timesheets completion, etc.)"
 msgstr ""
+"Sammenlignet med lignende job i andre virksomheder, hvor jeg kunne arbejde, "
+"min samlede kompensation ..."
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_4
 msgid "Continuous Improvement"
-msgstr ""
+msgstr "Løbende forbedringer"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report_create_date
@@ -432,7 +444,7 @@ msgstr "Oprettelses måned"
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_14
 msgid "Creativity and forward looking aptitude"
-msgstr ""
+msgstr "Kreativitet og fremadrettet evne"
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
@@ -440,6 +452,8 @@ msgid ""
 "Critical or key elements of performance and professional development needs "
 "(if any), should also be noted at this time"
 msgstr ""
+"Kritiske eller nøgleelementer i præstations- og faglige udviklingsbehov ("
+"hvis nogen) skal også noteres på dette tidspunkt"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_8
@@ -454,12 +468,12 @@ msgstr "Dato"
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_interview_deadline
 msgid "Date by which the person can open the survey and submit answers"
-msgstr ""
+msgstr "Dato hvor personen kan åbne og besvare undersøgelsen."
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_1_4
 msgid "Date of review"
-msgstr ""
+msgstr "Dato for gennemgang"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_interview_deadline
@@ -470,38 +484,38 @@ msgstr "Deadline"
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Deadline Date"
-msgstr ""
+msgstr "Deadline dato"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_7
 msgid "Decision making"
-msgstr ""
+msgstr "Beslutningstagning"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report_delay_date
 msgid "Delay to Start"
-msgstr ""
+msgstr "Forsinket start"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_2_2
 msgid "Delegation: Ability to efficiently assign tasks to other people"
-msgstr ""
+msgstr "Uddelegering: Evne til effektivt at tildele opgaver til andre mennesker"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_2_1
 msgid "Demonstrates genuine concern for me as a person"
-msgstr ""
+msgstr "Viser ægte bekymring for mig som person"
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.report,rating:0
 msgid "Did not meet expectations"
-msgstr ""
+msgstr "Opfyldte ikke forventningerne"
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_3
 #: model:survey.page,description:hr_evaluation.opinion_1
 msgid "Did not meet standards and expectations"
-msgstr ""
+msgstr "Overholdt ikke standarder og forventninger"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_display_name
@@ -515,7 +529,7 @@ msgstr "Navn"
 #. module: hr_evaluation
 #: selection:hr_evaluation.evaluation,rating:0
 msgid "Do not meet expectations"
-msgstr ""
+msgstr "Opfyld ikke forventningerne"
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.interview,state:0
@@ -548,7 +562,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_3
 msgid "Effectiveness"
-msgstr ""
+msgstr "Effektivitet"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_mail_body
@@ -567,33 +581,33 @@ msgstr "Ansat"
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_evaluation
 msgid "Employee Appraisal"
-msgstr ""
+msgstr "Medarbejderevaluering"
 
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.appraisal_1
 #: model:survey.survey,title:hr_evaluation.appraisal_form
 msgid "Employee Appraisal Form"
-msgstr ""
+msgstr "Medarbejder evaluerings skema"
 
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.appraisal_5
 msgid "Employee Comments"
-msgstr ""
+msgstr "Medarbejder kommentarer"
 
 #. module: hr_evaluation
 #: model:survey.survey,title:hr_evaluation.opinion_form
 msgid "Employee Opinion Form"
-msgstr ""
+msgstr "Medarbejderudtalelsesformular"
 
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.appraisal_3
 msgid "Employee Performance in Key Areas"
-msgstr ""
+msgstr "Medarbejderpræstation på nøgleområder"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_interview_user_to_review_id
 msgid "Employee to evaluate"
-msgstr ""
+msgstr "Medarbejder til at evaluere"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_evaluation_date_close
@@ -613,24 +627,24 @@ msgstr ""
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.opinion_2
 msgid "Evaluation"
-msgstr ""
+msgstr "Evaluering"
 
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_report
 msgid "Evaluations Statistics"
-msgstr ""
+msgstr "Evaluerings statestik"
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.report,rating:0
 #: selection:hr_evaluation.evaluation,rating:0
 msgid "Exceeds expectations"
-msgstr ""
+msgstr "Overgår forventningerne"
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_3
 #: model:survey.page,description:hr_evaluation.opinion_1
 msgid "Exceeds standards and expectations"
-msgstr ""
+msgstr "Overgår standarder og forventninger"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
@@ -640,13 +654,13 @@ msgstr "Udvidede filtre"
 #. module: hr_evaluation
 #: selection:hr_evaluation.plan.phase,action:0
 msgid "Final Interview"
-msgstr ""
+msgstr "Endeligt interview"
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.report,state:0
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 msgid "Final Validation"
-msgstr ""
+msgstr "Endelig vurdering"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
@@ -656,12 +670,12 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_month_first
 msgid "First Appraisal in (months)"
-msgstr ""
+msgstr "Første evaluering efter (måneder)"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
@@ -791,7 +805,7 @@ msgstr ""
 #: model:survey.question,comments_message:hr_evaluation.opinion_2_6
 #: model:survey.question,comments_message:hr_evaluation.opinion_2_7
 msgid "If other, please specify:"
-msgstr ""
+msgstr "Hvis andet, specificer venligst:"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_evaluation_note_action
@@ -943,7 +957,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Mail Body"
-msgstr ""
+msgstr "Email indhold"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
@@ -1014,7 +1028,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_2_1
 msgid "Objectives"
-msgstr ""
+msgstr "Mål"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_5
@@ -1081,7 +1095,7 @@ msgstr "Fase"
 #: model:ir.ui.view,arch_db:hr_evaluation.evaluation_search
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_report_search
 msgid "Plan"
-msgstr ""
+msgstr "Planlæg"
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.report,state:0
@@ -1098,7 +1112,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_form
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Print Survey"
-msgstr ""
+msgstr "Udskriv undersøgelse"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_4_1
@@ -1335,7 +1349,7 @@ msgstr ""
 #: model:survey.question,validation_error_msg:hr_evaluation.opinion_2_6
 #: model:survey.question,validation_error_msg:hr_evaluation.opinion_2_7
 msgid "The answer you entered has an invalid format."
-msgstr ""
+msgstr "Svaret du har indtastet er et ugyldigt format."
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.opinion_1
@@ -1442,7 +1456,7 @@ msgstr ""
 #: model:survey.question,constr_error_msg:hr_evaluation.opinion_2_6
 #: model:survey.question,constr_error_msg:hr_evaluation.opinion_2_7
 msgid "This question requires an answer."
-msgstr ""
+msgstr "Dette spørgsmål kræver et svar."
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_15
