@@ -426,7 +426,7 @@ msgid "TIN"
 msgstr ""
 
 #. module: hr_recruitment_partner
-#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5448
+#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5437
 msgid "Tags"
 msgstr ""
 
