@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2018-09-24 08:15+0000\n"
+"PO-Revision-Date: 2018-09-24 09:15+0000\n"
 "Last-Translator: Hans Henrik Gabelgaard <hhg@gabelgaard.org>\n"
 "Language-Team: Danish <https://example.com/projects/hr-11-0/"
 "hr-11-0-hr_evaluation/da/>\n"
@@ -701,7 +701,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_1
 msgid "I am proud to tell others I work here"
-msgstr ""
+msgstr "Jeg er stolt af at fortælle andre, jeg arbejder her"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_5
@@ -844,18 +844,18 @@ msgstr "Interne noter"
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_form
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Interview Appraisal"
-msgstr ""
+msgstr "Interview evaluering"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_evaluation_calendar
 msgid "Interview Request"
-msgstr ""
+msgstr "Interview forespørgsel"
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,name:hr_evaluation.action_hr_evaluation_interview_tree
 #: model:ir.ui.menu,name:hr_evaluation.menu_open_hr_evaluation_interview_requests
 msgid "Interview Requests"
-msgstr ""
+msgstr "Interview forespørgsler"
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_hr_evaluation_interview_tree
@@ -962,7 +962,7 @@ msgstr "Email indhold"
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Mail Settings"
-msgstr ""
+msgstr "Mail opsætning"
 
 #. module: hr_evaluation
 #: selection:hr.evaluation.report,rating:0
@@ -1023,7 +1023,7 @@ msgstr "Ny"
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_employee_evaluation_date
 msgid "Next Appraisal Date"
-msgstr ""
+msgstr "Næste evaluerings dato"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_2_1
@@ -1033,7 +1033,7 @@ msgstr "Mål"
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_5
 msgid "Openness"
-msgstr ""
+msgstr "Åbenhed"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_4_4
@@ -1072,12 +1072,12 @@ msgstr "Afventer"
 #. module: hr_evaluation
 #: model:ir.ui.menu,name:hr_evaluation.menu_eval_hr_config
 msgid "Periodic Appraisal"
-msgstr ""
+msgstr "Periodisk evaluering"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_month_next
 msgid "Periodicity of Appraisal (months)"
-msgstr ""
+msgstr "Evalueringsfrekvens (måneder)"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_4_2
@@ -1101,7 +1101,7 @@ msgstr "Planlæg"
 #: selection:hr.evaluation.report,state:0
 #: selection:hr_evaluation.evaluation,state:0
 msgid "Plan In Progress"
-msgstr ""
+msgstr "Plan under udførsel"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_1_2
@@ -1143,7 +1143,7 @@ msgstr ""
 #: code:addons/hr_evaluation/models/hr_evaluation.py:119
 #, python-format
 msgid "Regarding "
-msgstr ""
+msgstr "Vedrørende "
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_report_request_id
@@ -1158,7 +1158,7 @@ msgstr "Kør tilbage til kladde"
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_2_2
 msgid "Results"
-msgstr ""
+msgstr "Resultater"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_2_1
@@ -1177,13 +1177,13 @@ msgstr ""
 #: model:ir.cron,cron_name:hr_evaluation.ir_cron_scheduler_evaluation
 #: model:ir.cron,name:hr_evaluation.ir_cron_scheduler_evaluation
 msgid "Run Employee Appraisal"
-msgstr ""
+msgstr "Kør medarbejder evaluering"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.evaluation_search
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_search
 msgid "Search Appraisal"
-msgstr ""
+msgstr "Søg evaluering"
 
 #. module: hr_evaluation
 #: selection:hr_evaluation.plan.phase,action:0
@@ -1194,48 +1194,48 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_form
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Send Reminder Email"
-msgstr ""
+msgstr "Send påmindelses email"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_form
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Send Request"
-msgstr ""
+msgstr "Send forespørgsel"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_plan_phase_send_answer_employee
 msgid "Send all answers to the employee"
-msgstr ""
+msgstr "Send alle svar til medarbejderen"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_plan_phase_send_answer_manager
 msgid "Send all answers to the manager"
-msgstr ""
+msgstr "Send alle svar til lederen"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_plan_phase_send_anonymous_employee
 msgid "Send an anonymous summary to the employee"
-msgstr ""
+msgstr "Send et anonymt resumé til medarbejderen"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,help:hr_evaluation.field_hr_evaluation_plan_phase_send_anonymous_manager
 msgid "Send an anonymous summary to the manager"
-msgstr ""
+msgstr "Send et anonymt resumé til lederen"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_mail_feature
 msgid "Send mail for this phase"
-msgstr ""
+msgstr "Send mail for denne fase"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Send to Employees"
-msgstr ""
+msgstr "Send til medarbejdere"
 
 #. module: hr_evaluation
 #: model:ir.ui.view,arch_db:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Send to Managers"
-msgstr ""
+msgstr "Send til ledere"
 
 #. module: hr_evaluation
 #: model:ir.model.fields,field_description:hr_evaluation.field_hr_evaluation_plan_phase_sequence
