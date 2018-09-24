@@ -22,7 +22,7 @@
 {
     'name': 'Employee Appraisals',
     'summary': 'Periodical Evaluations, Appraisals, Surveys',
-    'version': '9.0.1.0.0',
+    'version': '11.0.1.0.0',
     'author': 'OpenERP SA, Odoo Community Association (OCA)',
     'license': 'AGPL-3',
     'category': 'Human Resources',
