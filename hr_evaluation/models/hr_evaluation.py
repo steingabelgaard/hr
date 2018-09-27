@@ -172,7 +172,7 @@ class Employee(models.Model):
 
 class Evaluation(models.Model):
     _name = "hr_evaluation.evaluation"
-    _inherit = "mail.thread"
+    _inherit = ["mail.thread", 'mail.activity.mixin']
     _description = "Employee Appraisal"
     _rec_name = "employee_id"
     date = fields.Date(
