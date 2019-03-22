@@ -470,7 +470,7 @@ msgid "TIN"
 msgstr "CVR"
 
 #. module: hr_recruitment_partner
-#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5438
+#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5429
 msgid "Tags"
 msgstr "Kategorier"
 
