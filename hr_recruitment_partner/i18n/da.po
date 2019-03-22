@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* hr_recruitment_partner
+# 	* hr_recruitment_partner
 #
 msgid ""
 msgstr ""
@@ -8,8 +8,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2018-09-08 19:15+0000\n"
 "Last-Translator: Hans Henrik Gabelgaard <hhg@gabelgaard.org>\n"
-"Language-Team: Danish <https://example.com/projects/hr-11-0/"
-"hr-11-0-hr_recruitment_partner/da/>\n"
+"Language-Team: Danish <https://example.com/projects/hr-11-0/hr-11-0-"
+"hr_recruitment_partner/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +74,9 @@ msgstr "Markér denne boks hvis kontakten er en kunde."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_supplier
-msgid "Check this box if this contact is a vendor. If it's not checked, purchase people will not see it when encoding a purchase order."
+msgid ""
+"Check this box if this contact is a vendor. If it's not checked, purchase "
+"people will not see it when encoding a purchase order."
 msgstr ""
 "Afkryds dette felt hvis kontakten er en leverandør. Er den ikke markeret vil "
 "indkøbsfolkene ikke kunne se den ved behandling af indkøbsordre."
@@ -92,6 +94,13 @@ msgstr "By"
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_commercial_partner_id
 msgid "Commercial Entity"
+msgstr "Kommerciel enhed"
+
+#. module: hr_recruitment_partner
+#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_commercial_partner_country_id
+#, fuzzy
+#| msgid "Commercial Entity"
+msgid "Commercial Entity's Country"
 msgstr "Kommerciel enhed"
 
 #. module: hr_recruitment_partner
@@ -141,7 +150,6 @@ msgid "Counter of the number of bounced emails for this contact"
 msgstr "Antal bounced emails for denne kontakt"
 
 #. module: hr_recruitment_partner
-#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_commercial_partner_country_id
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_country_id
 msgid "Country"
 msgstr "Land"
@@ -173,7 +181,10 @@ msgstr ""
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_partner_share
-msgid "Either customer (no user), either shared user. Indicated the current partner is a customer without access or with a limited access created for sharing data."
+msgid ""
+"Either customer (no user), either shared user. Indicated the current partner "
+"is a customer without access or with a limited access created for sharing "
+"data."
 msgstr ""
 
 #. module: hr_recruitment_partner
@@ -218,7 +229,10 @@ msgstr ""
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_opt_out
-msgid "If opt-out is checked, this contact has refused to receive emails for mass mailing and marketing campaign. Filter 'Available for Mass Mailing' allows users to filter the partners when performing mass mailing."
+msgid ""
+"If opt-out is checked, this contact has refused to receive emails for mass "
+"mailing and marketing campaign. Filter 'Available for Mass Mailing' allows "
+"users to filter the partners when performing mass mailing."
 msgstr ""
 "If opt-out is checked, this contact has refused to receive emails for mass "
 "mailing and marketing campaign. Filter 'Available for Mass Mailing' allows "
@@ -226,7 +240,9 @@ msgstr ""
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_lang
-msgid "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
+msgid ""
+"If the selected language is loaded in the system, all documents related to "
+"this contact will be printed in this language. If not, it will be English."
 msgstr ""
 "If the selected language is loaded in the system, all documents related to "
 "this contact will be printed in this language. If not, it will be English."
@@ -298,7 +314,10 @@ msgstr "Sidste meddelelse markeret som læst fra basen Kalender"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_last_time_entries_checked
-msgid "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
+msgid ""
+"Last time the invoices & payments matching was performed for this partner. "
+"It is set either if there's not at least an unreconciled debit and an "
+"unreconciled credit or if you click the \"Done\" button."
 msgstr ""
 
 #. module: hr_recruitment_partner
@@ -313,7 +332,10 @@ msgstr "Mellem størrelse billede"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_image_medium
-msgid "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgid ""
+"Medium-sized image of this contact. It is automatically resized as a "
+"128x128px image, with aspect ratio preserved. Use this field in form views "
+"or some kanban views."
 msgstr ""
 "Mellem-størrelse billede af denne kontakt. Skaleres automatisk til 128x128 "
 "pixel."
@@ -370,7 +392,10 @@ msgstr "Salgs prisliste"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_invoice_warn
-msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
 msgstr ""
 
 #. module: hr_recruitment_partner
@@ -415,7 +440,10 @@ msgstr "Lille billede"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_image_small
-msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgid ""
+"Small-sized image of this contact. It is automatically resized as a 64x64px "
+"image, with aspect ratio preserved. Use this field anywhere a small image is "
+"required."
 msgstr ""
 "Small-sized image of this contact. It is automatically resized as a 64x64px "
 "image, with aspect ratio preserved. Use this field anywhere a small image is "
@@ -442,30 +470,39 @@ msgid "TIN"
 msgstr "CVR"
 
 #. module: hr_recruitment_partner
-#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5439
+#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5431
 msgid "Tags"
 msgstr "Kategorier"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_vat
-msgid "Tax Identification Number. Fill it if the company is subjected to taxes. Used by the some of the legal statements."
+msgid ""
+"Tax Identification Number. Fill it if the company is subjected to taxes. "
+"Used by the some of the legal statements."
 msgstr ""
 "Tax Identification Number. Check the box if this contact is subjected to "
 "taxes. Used by the some of the legal statements."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_account_position_id
-msgid "The fiscal position will determine taxes and accounts used for the partner."
+msgid ""
+"The fiscal position will determine taxes and accounts used for the partner."
 msgstr ""
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_has_unreconciled_entries
-msgid "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
+msgid ""
+"The partner has at least one unreconciled debit and credit since last time "
+"the invoices & payments matching was performed."
 msgstr ""
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_tz
-msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
+msgid ""
+"The partner's timezone, used to output proper date and time values inside "
+"printed reports. It is important to set a value for this field. You should "
+"use the same timezone that is otherwise used to pick and render date and "
+"time values: your computer's timezone."
 msgstr ""
 "The partner's timezone, used to output proper date and time values inside "
 "printed reports. It is important to set a value for this field. You should "
@@ -474,38 +511,50 @@ msgstr ""
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_account_payable_id
-msgid "This account will be used instead of the default one as the payable account for the current partner"
+msgid ""
+"This account will be used instead of the default one as the payable account "
+"for the current partner"
 msgstr ""
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_account_receivable_id
-msgid "This account will be used instead of the default one as the receivable account for the current partner"
+msgid ""
+"This account will be used instead of the default one as the receivable "
+"account for the current partner"
 msgstr ""
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_image
-msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgid ""
+"This field holds the image used as avatar for this contact, limited to "
+"1024x1024px"
 msgstr ""
 "This field holds the image used as avatar for this contact, limited to "
 "1024x1024px"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_supplier_payment_term_id
-msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
+msgid ""
+"This payment term will be used instead of the default one for purchase "
+"orders and vendor bills"
 msgstr ""
 "Betalingsbetingelsen vil blive brugt i stedet for standardbetingelen på "
 "indkøbsordrer og leverandørfakturaer."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_payment_term_id
-msgid "This payment term will be used instead of the default one for sales orders and customer invoices"
+msgid ""
+"This payment term will be used instead of the default one for sales orders "
+"and customer invoices"
 msgstr ""
 "Denne betalingsbetingelse vil blive anvendt i stedet for den der er standard "
 "på salgsordrer og fakturaer"
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_property_product_pricelist
-msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
 msgstr ""
 "Denne prisliste anvendes i stedet for standardprislisten ved salg til den "
 "aktuelle kunde"
@@ -552,7 +601,9 @@ msgstr "Totalbeløb der skal betales til denne leverandør."
 
 #. module: hr_recruitment_partner
 #: model:ir.model.fields,help:hr_recruitment_partner.field_hr_applicant_type
-msgid "Used to select automatically the right address according to the context in sales and purchases documents."
+msgid ""
+"Used to select automatically the right address according to the context in "
+"sales and purchases documents."
 msgstr ""
 "Used to select automatically the right address according to the context in "
 "sales and purchases documents."

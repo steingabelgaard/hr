@@ -97,6 +97,11 @@ msgid "Commercial Entity"
 msgstr ""
 
 #. module: hr_recruitment_partner
+#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_commercial_partner_country_id
+msgid "Commercial Entity's Country"
+msgstr ""
+
+#. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_ref_company_ids
 msgid "Companies that refers to partner"
 msgstr ""
@@ -143,7 +148,6 @@ msgid "Counter of the number of bounced emails for this contact"
 msgstr ""
 
 #. module: hr_recruitment_partner
-#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_commercial_partner_country_id
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_country_id
 msgid "Country"
 msgstr ""
@@ -454,7 +458,7 @@ msgid "TIN"
 msgstr ""
 
 #. module: hr_recruitment_partner
-#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5487
+#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5431
 msgid "Tags"
 msgstr ""
 
