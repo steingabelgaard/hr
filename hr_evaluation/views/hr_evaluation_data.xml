@@ -40,8 +40,7 @@
            <field name="numbercall">-1</field>
            <field name="model_id" ref="hr.model_hr_employee"/>
            <field eval="'hr.employee'" name="model" />
-           <field eval="'run_employee_evaluation'" name="function" />
-           <field eval="'(False,)'" name="args" />
+           <field name="code">model.run_employee_evaluation()</field>
         </record>
      </data>
 
