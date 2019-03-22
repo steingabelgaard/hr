@@ -97,6 +97,13 @@ msgid "Commercial Entity"
 msgstr "Kommerciel enhed"
 
 #. module: hr_recruitment_partner
+#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_commercial_partner_country_id
+#, fuzzy
+#| msgid "Commercial Entity"
+msgid "Commercial Entity's Country"
+msgstr "Kommerciel enhed"
+
+#. module: hr_recruitment_partner
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_ref_company_ids
 msgid "Companies that refers to partner"
 msgstr "Firmaer med relation til partneren"
@@ -143,7 +150,6 @@ msgid "Counter of the number of bounced emails for this contact"
 msgstr "Antal bounced emails for denne kontakt"
 
 #. module: hr_recruitment_partner
-#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_commercial_partner_country_id
 #: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_country_id
 msgid "Country"
 msgstr "Land"
@@ -464,7 +470,7 @@ msgid "TIN"
 msgstr "CVR"
 
 #. module: hr_recruitment_partner
-#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5462
+#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5456
 msgid "Tags"
 msgstr "Kategorier"
 
