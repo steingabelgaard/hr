@@ -482,7 +482,7 @@ msgid "TIN"
 msgstr "ID za DDV"
 
 #. module: hr_recruitment_partner
-#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5476
+#: model:ir.model.fields,field_description:hr_recruitment_partner.field_hr_applicant_category_id_5492
 msgid "Tags"
 msgstr "Oznake"
 
