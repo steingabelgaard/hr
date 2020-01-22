@@ -4,6 +4,7 @@
 from odoo import api, fields, models
 from datetime import time
 from dateutil import tz
+from odoo.tools import config
 
 
 class HrHolidays(models.Model):
@@ -15,7 +16,9 @@ class HrHolidays(models.Model):
         """
         context = self.env.context
         if context.get('default_date_from'):
-            dt = fields.Datetime.from_string(context['default_date_from'])
+            dt = fields.Datetime.from_string(
+                context['default_date_from']
+            ).replace(tzinfo=tz.gettz(self.env.user.tz)).astimezone(tz.tzutc())
             return dt.hour == 5 and dt.minute == 0 and dt.second == 0
         return False
 
@@ -25,7 +28,9 @@ class HrHolidays(models.Model):
         """
         context = self.env.context
         if context.get('default_date_to'):
-            dt = fields.Datetime.from_string(context['default_date_to'])
+            dt = fields.Datetime.from_string(
+                context['default_date_to']
+            ).replace(tzinfo=tz.gettz(self.env.user.tz)).astimezone(tz.tzutc())
             return dt.hour == 17 and dt.minute == 0 and dt.second == 0
         return False
 
@@ -65,10 +70,6 @@ class HrHolidays(models.Model):
             'confirm': [('readonly', False)]
         },
     )
-    # Supporting field for avoiding limitation on storing readonly fields
-    number_of_days_temp_related = fields.Float(
-        related="number_of_days_temp", readonly=True,
-    )
 
     @api.depends('date_from')
     def _compute_date_from_full(self):
@@ -95,6 +96,8 @@ class HrHolidays(models.Model):
         as fallback.
         """
         for record in self.filtered('from_full_day'):
+            if not record.date_from_full:
+                continue
             tz_name = record.employee_id.user_id.tz or record.env.user.tz
             dt = fields.Datetime.from_string(record.date_from_full).replace(
                 hour=0, minute=0, second=0, microsecond=0,
@@ -107,6 +110,8 @@ class HrHolidays(models.Model):
         as fallback.
         """
         for record in self.filtered('to_full_day'):
+            if not record.date_to_full:
+                continue
             tz_name = record.employee_id.user_id.tz or record.env.user.tz
             dt = fields.Datetime.from_string(record.date_to_full).replace(
                 hour=23, minute=59, second=59, microsecond=999999,
@@ -114,12 +119,12 @@ class HrHolidays(models.Model):
             ).astimezone(tz.tzutc())
             record.date_to = fields.Datetime.to_string(dt)
 
-    @api.onchange('date_from_full')
+    @api.onchange('date_from_full', 'from_full_day')
     def _onchange_date_from_full(self):
         """As inverse methods only works on save, we have to add an onchange"""
         self._inverse_date_from_full()
 
-    @api.onchange('date_to_full')
+    @api.onchange('date_to_full', 'to_full_day')
     def _onchange_date_to_full(self):
         """As inverse methods only works on save, we have to add an onchange"""
         self._inverse_date_to_full()
@@ -134,6 +139,10 @@ class HrHolidays(models.Model):
         """Pass context variable for including rest days or change passed dates
         when computing full days.
         """
+        if (config['test_enable'] and
+                not self.env.context.get('test_full_days')):
+            return super()._get_number_of_days(date_from, date_to, employee_id)
+
         obj = self.with_context(
             include_rest_days=not self.holiday_status_id.exclude_rest_days,
         )
